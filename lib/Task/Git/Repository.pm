@@ -1,5 +1,5 @@
 package Task::Git::Repository;
-$Task::Git::Repository::VERSION = '0.001';
+$Task::Git::Repository::VERSION = '1.000';
 use strict;
 use warnings;
 
@@ -15,7 +15,7 @@ Task::Git::Repository - Install all Git::Repository plugins at once
 
 =head1 VERSION
 
-version 0.001
+version 1.000
 
 =head1 SYNOPSIS
 
@@ -47,6 +47,8 @@ L<Git::Repository::Plugin::Blame> - Add a blame() method to L<Git::Repository>
 L<Git::Repository::Plugin::File> - Add a file() method to Git::Repository
 
 L<Git::Repository::Plugin::FileHistory> - Class representing file on git repository
+
+L<Git::Repository::Plugin::Gerrit> - Add some integration with Gerrit
 
 L<Git::Repository::Plugin::Hooks> - Work with hooks in a L<Git::Repository>
 

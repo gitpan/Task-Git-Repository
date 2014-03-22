@@ -26,6 +26,7 @@ my %WriteMakefileArgs = (
     "Git::Repository::Plugin::Blame" => 0,
     "Git::Repository::Plugin::File" => 0,
     "Git::Repository::Plugin::FileHistory" => 0,
+    "Git::Repository::Plugin::Gerrit" => 0,
     "Git::Repository::Plugin::Hooks" => 0,
     "Git::Repository::Plugin::Info" => 0,
     "Git::Repository::Plugin::Log" => "1.309",
@@ -34,7 +35,7 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.001",
+  "VERSION" => "1.000",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -47,6 +48,7 @@ my %FallbackPrereqs = (
   "Git::Repository::Plugin::Blame" => 0,
   "Git::Repository::Plugin::File" => 0,
   "Git::Repository::Plugin::FileHistory" => 0,
+  "Git::Repository::Plugin::Gerrit" => 0,
   "Git::Repository::Plugin::Hooks" => 0,
   "Git::Repository::Plugin::Info" => 0,
   "Git::Repository::Plugin::Log" => "1.309",
