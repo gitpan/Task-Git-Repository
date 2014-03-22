@@ -1,0 +1,4 @@
+Revision history for Task-Git-Repository
+
+0.001 Sat Mar 22 2014
+        - install Git::Repository and all known Git::Repository plugins
